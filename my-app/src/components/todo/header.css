@@ -1,0 +1,109 @@
+.header{
+    width: 100%;
+    background-color: rgb(63, 190, 190);
+    display: flex;
+    
+}
+.header .logo_nav li{
+    display: inline-block;
+    padding: 3px;
+    margin: 5px;
+    color: white;
+}
+
+.logo_nav{
+    margin-left: 60rem;
+}
+
+p{
+    margin-top: 5px;
+    color: white;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+/* ////////body////// */
+.seach_body{
+    width: 100%;
+    display: flex;
+}
+.nav_bar li{
+    display: inline-block;
+    padding: 3px;
+    margin: 4px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+input{
+    width: 40rem;
+    height: 2.4rem;
+    border:1px solid rgb(190, 188, 188);
+    border-radius: 20px;
+}
+.search_input{
+width: 52%;
+margin: 46px;
+}
+.logo img{
+    width: 230px;
+}
+.search_btn{
+   border-radius: 20px;
+    height: 2.4rem;
+    border: none;
+    width: 66px;
+    background: #3fbebe;
+    position: relative;
+   right: 66px;
+}
+.login{
+    /* background-color: chartreuse; */
+    width: 21rem;
+    text-align: center;
+    margin-top: 47px;
+}
+.log_btn{
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 7px;
+    margin-bottom: 50px;
+}
+.sin_btn{
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 7px;
+    margin-bottom: 50px;
+}
+
+.counter{
+    position: relative;
+    bottom: 10px;
+    right: 11px;
+    background: red;
+    border-radius: 17px;
+}
+
+.first_P{
+    background-color: rgb(92, 192, 192);
+    width: 100%;
+    height: 36px;
+}
+.first_P h6{
+    margin-left: 5px;
+   
+    position: relative;
+    top: 5px;
+}
+.icon_div{
+    margin-top: 54px;
+}
