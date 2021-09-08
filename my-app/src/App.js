@@ -5,6 +5,7 @@ import Body from './components/todo/body'
 import AuthProvider from './context/auth';
 import Auth from './components/auth/auth'
 import NavBar from './components/todo/header';
+import Form from './components/todo/form'
 
 export default class App extends React.Component {
   render() {
@@ -14,11 +15,11 @@ export default class App extends React.Component {
         <NavBar />
           <Auth capability="read">
           <SiteContext>
-        <Body/>
+       <Form/>
       </SiteContext>
           </Auth>
           <Auth capability="guest">
-         
+          <Body/>
           </Auth>
          
       </AuthProvider>

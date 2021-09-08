@@ -8,6 +8,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import { AuthContext } from '../../context/auth';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import LocalMallOutlinedIcon from '@material-ui/icons/LocalMallOutlined';
+import SearchIcon from '@material-ui/icons/Search';
 import { If, Else, Then } from 'react-if';
 import './header.css'
 
@@ -38,7 +39,7 @@ const NavBar = () => {
             </div>
             <div className='search_input'>
              <input type='text' placeholder='search..'/>
-             <button className='search_btn'>search</button><br/>
+             <button className='search_btn'><SearchIcon/></button><br/>
              <ul className='nav_bar'>
                  <li>Home +</li>
                  <li>Shop +</li>
@@ -53,17 +54,17 @@ const NavBar = () => {
             </div>
             <If condition={contextType.loggedIn}>
             <Then>
-            <button  onClick={contextType.logout}>
+            <button className='log_btn'  onClick={contextType.logout}>
               Logout
             </button>
             </Then>
             <Else>
             <button className='log_btn' onClick={() => setSigninShow(true)}>
-              Signin
+              SINGN IN
             </button>
 
             <button className='sin_btn'  onClick={() => setSignupShow(true)}>
-              Signup
+              SINGN UP
             </button>
             </Else>
             </If>
